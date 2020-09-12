@@ -4,7 +4,7 @@
 
     <groupId>lt.verbus</groupId>
     <artifactId>verbus-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -46,7 +46,7 @@
 
 <scm>
     <developerConnection>scm:git:git@github.com:verbusharas/verbus-pet-clinic.git</developerConnection>
-  <tag>HEAD</tag>
+  <tag>verbus-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
