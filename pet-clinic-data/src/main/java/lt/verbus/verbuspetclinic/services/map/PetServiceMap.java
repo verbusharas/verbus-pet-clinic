@@ -2,9 +2,11 @@ package lt.verbus.verbuspetclinic.services.map;
 
 import lt.verbus.verbuspetclinic.model.Pet;
 import lt.verbus.verbuspetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
