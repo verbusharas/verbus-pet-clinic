@@ -1,5 +1,14 @@
-lt\verbus\verbuspetclinic\model\Owner.class
-lt\verbus\verbuspetclinic\model\Vet.class
-lt\verbus\verbuspetclinic\model\Pet.class
+lt\verbus\verbuspetclinic\services\map\AbstractMapService.class
+lt\verbus\verbuspetclinic\services\PetService.class
 lt\verbus\verbuspetclinic\model\PetType.class
+lt\verbus\verbuspetclinic\services\map\VetServiceMap.class
+lt\verbus\verbuspetclinic\model\BaseEntity.class
+lt\verbus\verbuspetclinic\services\OwnerService.class
+lt\verbus\verbuspetclinic\model\Owner.class
+lt\verbus\verbuspetclinic\model\Pet.class
+lt\verbus\verbuspetclinic\services\CrudService.class
+lt\verbus\verbuspetclinic\services\map\OwnerServiceMap.class
+lt\verbus\verbuspetclinic\services\VetService.class
+lt\verbus\verbuspetclinic\model\Vet.class
+lt\verbus\verbuspetclinic\services\map\PetServiceMap.class
 lt\verbus\verbuspetclinic\model\Person.class

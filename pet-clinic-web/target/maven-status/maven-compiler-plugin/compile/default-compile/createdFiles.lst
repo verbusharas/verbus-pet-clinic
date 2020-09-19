@@ -1,1 +1,5 @@
+lt\verbus\verbuspetclinic\controllers\VetController.class
+lt\verbus\verbuspetclinic\controllers\OwnerController.class
+lt\verbus\verbuspetclinic\bootstrap\DataLoader.class
+lt\verbus\verbuspetclinic\controllers\IndexController.class
 lt\verbus\verbuspetclinic\VerbusPetClinicApplication.class
