@@ -1,7 +1,9 @@
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\map\AbstractMapService.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\Person.java
+D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\Speciality.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\CrudService.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\VetService.java
+D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\map\SpecialityMapService.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\PetType.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\Vet.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\Pet.java
@@ -9,6 +11,10 @@ D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbusp
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\BaseEntity.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\map\PetServiceMap.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\Owner.java
+D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\PetTypeService.java
+D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\SpecialityService.java
+D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\map\PetTypeMapService.java
+D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\model\Visit.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\OwnerService.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\map\OwnerServiceMap.java
 D:\JAVA SPRING\verbus-pet-clinic\pet-clinic-data\src\main\java\lt\verbus\verbuspetclinic\services\PetService.java
