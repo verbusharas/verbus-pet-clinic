@@ -1,6 +1,7 @@
 package lt.verbus.verbuspetclinic.bootstrap;
 
 import lt.verbus.verbuspetclinic.model.Owner;
+import lt.verbus.verbuspetclinic.model.Pet;
 import lt.verbus.verbuspetclinic.model.PetType;
 import lt.verbus.verbuspetclinic.model.Vet;
 import lt.verbus.verbuspetclinic.services.OwnerService;
@@ -8,6 +9,8 @@ import lt.verbus.verbuspetclinic.services.PetTypeService;
 import lt.verbus.verbuspetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.time.LocalDate;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -36,20 +39,49 @@ public class DataLoader implements CommandLineRunner {
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
+        owner1.setAddress("123 Brickerel");
+        owner1.setCity("Miami");
+        owner1.setTelephone("1231231234");
+
+        Pet mikesPet = new Pet();
+        mikesPet.setPetType(savedDogPetType);
+        mikesPet.setOwner(owner1);
+        mikesPet.setBirthDate(LocalDate.now());
+        mikesPet.setName("Rosco");
+        owner1.getPets().add(mikesPet);
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
+        owner2.setAddress("123 Brickerel");
+        owner2.setCity("Miami");
+        owner2.setTelephone("1231231234");
+
+        Pet fionasCat = new Pet();
+        fionasCat.setName("Just Cat");
+        fionasCat.setOwner(owner2);
+        fionasCat.setBirthDate(LocalDate.now());
+        fionasCat.setPetType(savedCatPetType);
+        owner2.getPets().add(fionasCat);
 
         ownerService.save(owner2);
 
         Owner owner3 = new Owner();
         owner3.setFirstName("Gabrielė");
         owner3.setLastName("Anskaitytė");
-
+        owner3.setAddress("Mitchellsgade 2b");
+        owner3.setCity("Copenhagen");
+        owner3.setTelephone("+45777777");
         ownerService.save(owner3);
+
+        Pet gabuDog = new Pet();
+        gabuDog.setName("Doggo");
+        gabuDog.setOwner(owner3);
+        gabuDog.setBirthDate(LocalDate.now());
+        gabuDog.setPetType(savedDogPetType);
+        owner2.getPets().add(gabuDog);
 
         System.out.println("Loaded Owners.....");
 
